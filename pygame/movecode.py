@@ -123,7 +123,7 @@ while 1:
 
     screan.fill(COLOR)
     #screan.blit(background, (0, 0))
-    screan.blit(PAC,PACrect)
+    screan.blit(PAC, PACrect)
     screan.blit(item1, item1rect)
     screan.blit(text, text.get_rect())
     pygame.display.flip()   # update display
